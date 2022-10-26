@@ -1,10 +1,10 @@
 def message(nomeEmpresa, preco, dias):   
-    return(
+    return({
     f"""
     Empresa: {nomeEmpresa}
     Valor do Frete R$: {preco}
     Prazo em dias: {dias}
-    """)
+    """})
 
 def messageEmpresas(nomeEmpresaPrimeira, precoPrimeira, diasPrimeira, nomeEmpresaSegunda,precoSegunda,diasSegunda,):   
     return(
